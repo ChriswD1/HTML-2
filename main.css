@@ -1,0 +1,30 @@
+body{
+
+background-color: rgb(245, 141, 6);
+
+margin: 5px;
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.topnav {
+overflow:hidden;
+background-color: black;
+height: 30px;
+}
+.topnav a{
+float:left;
+color:rgb(245, 229, 4);
+text-align: center;
+padding-left: 14px;
+padding-right: 10px;
+text-decoration:none;
+font-size: 25px;
+}
+.topnav a:hover{
+background-color: bisque;
+color:black;
+}
+.topnav a.active{
+background-color: brown;
+color:aqua;
+}
